@@ -59,7 +59,6 @@ class MyHomePage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(AppLocalizations.of(context).helloWorld),
-              ElevatedButton(onPressed: () {}, child: Text('English'))
             ],
           ),
         ),
